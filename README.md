@@ -60,3 +60,29 @@ module.exports = {
   }
 }
 ```
+
+### 本地配置 .gitignore 文件
+```
+//.gitignore
+ 
+.DS_Store
+node_modules
+/dist
+ 
+# local env files
+.env.local
+.env.*.local
+ 
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+```
